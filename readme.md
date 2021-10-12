@@ -1,3 +1,15 @@
+# How to do it
+Great, you have decided to work on your site again after, I'm guessing... 8 months?  Anyway, everything is self contained in this repo.  Clone it down to a machinea and a directory that has Node.js and NPM.
+
+First up, run the command "npm install".  
+
+You can do that a LOT of times, because that will read the package.json file and install a bunch of dependencies.  That package.json also defines a lot of "user scripts" that will use those dependencies to build and serve this dev setup.
+
+In fact, after you install everything, use "npm run dev" to run the dev site.  That will watch the typescript directory (which is where you have web components on the lit framework) and compile the components into JS, the scss directory (where you have SASS and in particuar the bootstrap sass) that compiles the SCSS into css, and set the web server to run with the _site folder as the root, and refresh the browser for you (Edge or Chrome) each time you save changes to one of those files. 
+
+Now you can fuck up your code REALLY QUICKLY and AUTOMATICALLY
+
+
 # Intro To Learning
 ## 2021-10-11
 Copying the lit starter pack for TypeScript, then reading the TypeScript tooling overview, then getting made at all the shit in the world that has happened in the past 5 years while I've been doing stupid ATO documentation, I got my barebones setup.
@@ -48,4 +60,5 @@ There was a LOT of reading the notes for the PostCSS cli and autoprefix tool.  I
 
 # TODO list
 
-1. Get SASS or somekind of CSS project to output into the build folder
+1. Limit the amount of bootstrap crap you included
+2. Handwrite enough CSS to load the page without anything else
