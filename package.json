@@ -1,0 +1,19 @@
+{
+  "name": "@tsexamples/tsexample",
+  "private": true,
+  "version": "0.0.1",
+  "description": "A first web component",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "serve": "wds --watch"
+  },
+  "dependencies": {
+    "lit": "^2.0.0"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.1.22",
+    "typescript": "^4.3.5"
+  }
+}
