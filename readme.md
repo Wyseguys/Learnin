@@ -21,12 +21,19 @@ Copying the lit starter pack for TypeScript, then reading the TypeScript tooling
 Now I'm going to see about reconfiguring the project to put the output stuff in a "_build" folder. I'm thinking the build folder will contain the actual website.  I'll need to change how the compiled output works, and change where the website serves from.
 
 1. Create the _build filder
-1. Copy the website files into it, leaving all the config
+2. Copy the website files into it, leaving all the config
     1. Leave all the configuration in the root
     2. Leave all the "coding" in the 'src' folder
     3. Putting all the good good outpu in the '_build'
-1. Edit the tsconfig.json to change the compile output directory
-1. Edit the package.json, update the script for the wds server with --root-dir flag
+3. Edit the tsconfig.json to change the compile output directory
+4. Edit the package.json, update the script for the wds server with --root-dir flag
+
+## Futzing with NPM scripts.
+It isn't really a problem, but right now I am runnig the 'watch' script in one terminal, and the 'serve' in another.  I'd like to make a new script called 'dev' that does both of those things.
+
+1. edit package.json to create a new script
+2. new script calls other items...
+3. So I had to install ANOTHER npm package called "concurrently" to do this, because that made more sense than installing a package specific to node.
 
 
 
