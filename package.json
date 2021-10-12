@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc --watch",
-    "serve": "wds --watch"
+    "serve": "wds --root-dir _build --watch"
   },
   "dependencies": {
     "lit": "^2.0.0"

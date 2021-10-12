@@ -7,7 +7,7 @@
         "declarationMap": true,
         "sourceMap": true,
         "inlineSources": true,
-        "outDir": "./components",
+        "outDir": "./_build/components",
         "rootDir": "./src",
         "strict": true,
         "esModuleInterop": true,
