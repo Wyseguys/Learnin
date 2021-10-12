@@ -15,3 +15,5 @@ Copying the lit starter pack for TypeScript, then reading the TypeScript tooling
 1. Oopsies, better do a .gitignore to ignore the 3+Gb of NPM files
 1. Try out the package.json script for build and serve  Both will watch
 1. Write up this readme for lucky #13
+
+
