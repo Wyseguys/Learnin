@@ -1,0 +1,158 @@
+
+
+
+@charset "utf-8";
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+$body-bg: #244564;
+$body-color: #F8F9F9;
+
+//palette
+// EEE4E9
+// 6AB2C8
+// 244564
+// 656F7D
+// 1D171E
+
+$primary:       #264666;
+$secondary:     #656F7D;
+$success:       #419057;
+$info:          #1d171e;
+$warning:       #be7f1f;
+$danger:        #f44336;
+$light:         #F8F9F9;
+$dark:          #1d171e;
+
+$font-family-sans-serif:      "Lato", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-base:            $font-family-sans-serif !default;
+
+$secondary-color:rgba(240, 235, 235, 0.5);
+
+
+
+.header {
+    background-color:$dark;
+    border-bottom: 5px solid $warning;
+    padding: 10px;
+}
+
+.header a {
+    color: $light;
+}
+.header a:hover {
+    text-decoration: underline;
+}
+
+header nav {
+    max-width: 1140px;
+    margin: auto;
+    padding: auto 15px;
+}
+
+header nav div {
+    font-size: 2em;
+}
+
+main {
+    padding: 2em 0;
+    margin: 0 0 1em 0;
+    h1,h2,h3,h4,h5,h6 {
+        font-family: 'Poppins', $font-family-sans-serif;
+    }
+    h1 {
+        border-bottom: 5px solid $warning;
+        margin-bottom: 1.5rem;
+    }
+    h1.no-border {
+        border-bottom: none;
+        margin-bottom: .5rem;
+    }
+}
+
+.container
+{
+    background-color: $body-color;
+    color: $dark;
+}
+
+.footer{
+    width: 100%;
+    background-color:$secondary;
+
+    .guts
+    {
+        max-width: 1140px;
+        margin: auto;
+        padding: 20px 15px 10px 15px;
+        font-size: .9em;
+
+        .social-media-list a {
+            color: $light;
+        }
+    }
+
+}
+
+.nav-pills .nav-link.active {
+    background-color: $gray-800;
+}
+.nav-pills .nav-item-head {
+    font-size: 1.2em;
+}
+
+blockquote {
+    border-left: 3px solid $gray-500;
+    margin: 10px 2em;
+    padding: 0 0 0 1em;
+}
+
+.subnav-title {
+  background-color: $dark;
+  color: $light;
+  padding: .5em;
+}
+
+.related-posts {
+  background-color: $light;
+}
+
+.related-posts a {
+  color: $dark;
+}
+
+img.wyseguys-album {
+    max-height: 300px;
+}
+
+.well {
+    margin: 10px 0 0 0;
+    background-color: $light;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #000;
+    h3.ad {
+        font-size: .8em;
+        border: 1px 0 1px 0 solid $dark;
+    }
+}
+
+.blag-excerpt {
+    border-bottom: 2px solid $secondary;
+    margin: 0 0 20px 0;
+    padding: 1em;
+}
+
+.blag-excerpt hr {
+    width: 75%;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}

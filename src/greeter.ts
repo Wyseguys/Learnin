@@ -23,4 +23,6 @@ function greeter(person: Student) {
    
   let user = new Student("Mr Christer", "Lee", "Zwemke");
    
-  document.body.textContent = greeter(user);
+  var el = document.getElementsByTagName('H1');
+  var FUCKYOU = greeter(user).toString();
+  el[0].innerHTML  = FUCKYOU;

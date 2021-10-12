@@ -11,4 +11,6 @@ interface person {
 }
 declare function greeter(person: Student): string;
 declare let user: Student;
+declare var el: HTMLCollectionOf<Element>;
+declare var FUCKYOU: string;
 //# sourceMappingURL=greeter.d.ts.map
