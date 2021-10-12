@@ -8,7 +8,7 @@ class Student {
     }
 }
 function greeter(person) {
-    return "Hello There, " + person.firstname + " " + person.middlename + " " + person.lastname;
+    return "Hello You Big Ol Guy, " + person.firstname + " " + person.middlename + " " + person.lastname;
 }
 let user = new Student("Mr Christer", "Lee", "Zwemke");
 document.body.textContent = greeter(user);

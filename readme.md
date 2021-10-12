@@ -35,6 +35,15 @@ It isn't really a problem, but right now I am runnig the 'watch' script in one t
 2. new script calls other items...
 3. So I had to install ANOTHER npm package called "concurrently" to do this, because that made more sense than installing a package specific to node.
 
+## Bootstap?
+Why not, it is okay by me.  So that is bootstrap, the bootstrap icons, and something called popper.js.  Then I need a sass compiler, which now requires something call PostCSS and autoprefixer.  Now I get to add new scripts.  
+
+This has also led me to discover _build is a bad name, so I'm changing it to _site.  Changing the tsconfig.json and package.json.
+
+Then the CSS scripts use a npm-run-all instead of concurrently, and I like that syntax better, so I removed concurrently.
+
+There was a LOT of reading the notes for the PostCSS cli and autoprefix tool.  I'm not sure of the usefulness of it, but okay
+
 
 
 # TODO list

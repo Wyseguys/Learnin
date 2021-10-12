@@ -7,7 +7,7 @@
         "declarationMap": true,
         "sourceMap": true,
         "inlineSources": true,
-        "outDir": "./_build/components",
+        "outDir": "_site/components",
         "rootDir": "./src",
         "strict": true,
         "esModuleInterop": true,
@@ -46,7 +46,7 @@
         // files to track  work from these directories
         "excludeDirectories": [
             "**/node_modules",
-            "_build"
+            "_site"
         ]
         // "excludeFiles": [
         //     "build/fileWhichChangesOften.ts"
